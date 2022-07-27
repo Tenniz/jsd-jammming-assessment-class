@@ -1,5 +1,5 @@
 // TODO: Get Client ID from https://developer.spotify.com/dashboard/ and put it here
-const clientId = "04e5698ad9c14a849843a6e141b4d33d";
+const clientId = "bbe9cd93bc01470480aa7732f556a3c1";
 
 const redirectUri ='https://rad-starburst-0ba85f.netlify.app';
 const spotifyUrl = `https://accounts.spotify.com/authorize?response_type=token&scope=playlist-modify-public&client_id=${clientId}&redirect_uri=${redirectUri}`;
